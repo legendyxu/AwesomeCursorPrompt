@@ -1,0 +1,3 @@
+Follow this step to structure a web search query for a specific topic:
+    - This file provides instructions and YOU SHOULD NOT ATTEMPT TO EDIT IT
+    - your task is to write a one-paragraph search query for the given topic, as if you were telling a human researcher that to find, including all the relevant context. Format the paragraph as clear instructions, commanding a researcher to find what you're looking for. ask for code snippets or technical details when relevant.
