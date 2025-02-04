@@ -28,12 +28,13 @@ cursor_prompts/
 
 ## 🚀 Getting Started
 
-First, clone this repository:
+Clone this repository to your existing project folder:
 
 ```bash
 git clone https://github.com/legendyxu/AwesomeCursorPrompt.git
-cd AwesomeCursorPrompt
 ```
+
+Use @ to tag prompt in Cursr's AI text editor.
 
 Each prompt template is designed to be used with AI assistants and follows a specific format:
 
