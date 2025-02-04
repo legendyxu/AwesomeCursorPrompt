@@ -116,7 +116,6 @@ Clear and comprehensive documentation:
 1. Clone this repository:
 ```bash
 git clone https://github.com/legendyxu/AwesomeCursorPrompt.git
-cd AwesomeCursorPrompt
 ```
 
 2. Choose a prompt template that matches your task
