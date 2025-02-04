@@ -5,9 +5,13 @@
 [![GitHub issues](https://img.shields.io/github/issues/legendyxu/AwesomeCursorPrompt)](https://github.com/legendyxu/AwesomeCursorPrompt/issues)
 [![GitHub license](https://img.shields.io/github/license/legendyxu/AwesomeCursorPrompt)](https://github.com/legendyxu/AwesomeCursorPrompt/blob/main/LICENSE)
 
-A collection of specialized prompts designed to enhance Cursor AI development workflows. This project provides carefully crafted prompt templates to improve your interaction with AI assistants in various development scenarios, from architecture planning to debugging and documentation.
+A curated collection of specialized prompts designed to supercharge your Cursor AI development experience. These carefully crafted templates enhance your interaction with AI assistants across the entire development lifecycle.
 
-## 📁 Project Structure
+> **Quick Tip** ⚡ Use `@prompt_name.md` to activate any prompt in Cursor's AI text editor!
+
+> **Note** 🚧 This project is under active development. Some categories are planned for future releases.
+
+## Project Structure 📁
 
 ```
 cursor_prompts/
@@ -15,76 +19,119 @@ cursor_prompts/
 ├── debug/          # Debugging assistance prompts
 ├── behavior/       # Best practices and code quality prompts
 ├── research/       # Technical research query templates
-└── summary/        # Project documentation prompts
+├── summary/        # Project documentation prompts
+├── testing/        # Test creation prompts                (upcoming)
+├── refactor/       # Code optimization prompts           (upcoming)
+├── security/       # Security audit prompts              (upcoming)
+├── review/         # Code review prompts                 (upcoming)
+└── docs/           # Documentation prompts               (upcoming)
 ```
 
-## 🎯 Features
+## Current Features 🎯
 
-- **Architecture Planning** (`/cursor_prompts/architect/`) - Structured prompts for project architecture design, tech stack selection, and development planning
-- **Debug Assistant** (`/cursor_prompts/debug/`) - Systematic approach to debugging issues with thorough analysis and assumption challenging
-- **Best Practices** (`/cursor_prompts/behavior/`) - Guidelines for maintaining code quality and professional development practices
-- **Research Helper** (`/cursor_prompts/research/`) - Templates for structuring technical research queries
-- **Project Summary** (`/cursor_prompts/summary/`) - Automated project documentation and change tracking
+### Architecture Planning (`@architect`)
+Transform your project ideas into well-structured implementations:
+- Requirements gathering and analysis
+- Tech stack evaluation and selection
+- System design and component planning
+- Architecture validation against best practices
+- Development roadmap generation
 
-## 🚀 Getting Started
+### Debug Assistant (`@debug`)
+Your AI pair programmer for solving complex issues:
+- Root cause analysis with step-by-step investigation
+- Assumption validation and edge case consideration
+- Runtime behavior analysis
+- Solution suggestions with explanations
+- Verification steps for fixes
 
-Clone this repository to your existing project folder:
+### Best Practices (`@behavior`)
+Maintain high code quality and professional standards:
+- Code style and convention enforcement
+- Clear naming and organization guidelines
+- Safe refactoring suggestions
+- Comprehensive documentation practices
+- Performance optimization tips
 
+### Research Helper (`@research`)
+Efficient technical research and problem-solving:
+- Focused technical query formulation
+- Relevant documentation discovery
+- Solution evaluation framework
+- Alternative approach exploration
+- Technology comparison assistance
+
+### Project Summary (`@summary`)
+Keep your project well-documented and organized:
+- Project structure visualization
+- Feature and functionality tracking
+- Change history documentation
+- Issue resolution logging
+- Progress monitoring
+
+## Upcoming Features 🔮
+
+### Testing Assistant (`@testing`)
+Comprehensive testing support:
+- Unit test generation
+- Integration test scenarios
+- Edge case identification
+- Test data generation
+- Coverage improvement suggestions
+
+### Refactoring Guide (`@refactor`)
+Code quality improvement:
+- Pattern implementation
+- Performance optimization
+- Technical debt reduction
+- Code smell detection
+- Modernization suggestions
+
+### Security Checker (`@security`)
+Security enhancement:
+- Vulnerability scanning
+- Security best practices
+- Authentication review
+- Authorization patterns
+- Data protection guidelines
+
+### Code Reviewer (`@review`)
+Professional code review:
+- Style consistency
+- Logic validation
+- Performance analysis
+- Best practice enforcement
+- Improvement suggestions
+
+### Documentation Helper (`@docs`)
+Clear and comprehensive documentation:
+- API documentation
+- Usage examples
+- Function descriptions
+- README generation
+- Change documentation
+
+## Getting Started 🚀
+
+1. Clone this repository:
 ```bash
 git clone https://github.com/legendyxu/AwesomeCursorPrompt.git
+cd AwesomeCursorPrompt
 ```
 
-Use @ to tag prompt in Cursr's AI text editor.
+2. Choose a prompt template that matches your task
+3. In Cursor, use `@prompt_name` to activate the prompt
+4. Follow the structured format for best results
 
-Each prompt template is designed to be used with AI assistants and follows a specific format:
+## Usage Example 💡
 
-1. **Architecture Planning**
-   - Gathers project requirements
-   - Facilitates tech stack decisions
-   - Creates structured development plans
-   - Validates against existing rules
-   - Generates formatted planning documents
-
-2. **Debugging**
-   - Promotes thorough analysis
-   - Challenges assumptions
-   - Considers context and common issues
-   - Provides structured problem-solving steps
-
-3. **Best Practices**
-   - Ensures code quality
-   - Maintains detailed documentation
-   - Promotes careful code modifications
-   - Includes comprehensive comments for learning
-
-4. **Research Queries**
-   - Structures technical search queries
-   - Includes relevant context
-   - Specifies required technical details
-   - Optimizes for human researchers
-
-5. **Project Summary**
-   - Generates project structure overviews
-   - Documents key features
-   - Tracks recent changes
-   - Maintains detailed error resolution history
-
-## 💡 Usage
-
-1. Open Cursor and choose the appropriate prompt template for your task
-2. Tag the needed prompt in cursor Chat/Composer
-3. Use with your preferred LLM
-
-### Example Usage
-
-Here's an example of using the debugging prompt template:
+Here's how to use the debugging prompt:
 
 ```markdown
 @debug I'm encountering a TypeError in my React component:
 TypeError: Cannot read property 'map' of undefined
 
 Component code:
-
 ```jsx
 const UserList = ({ users }) => {
   return (
@@ -93,39 +140,34 @@ const UserList = ({ users }) => {
     </div>
   );
 }
-
-
 ```
 
-The AI will help analyze:
-- Potential causes of undefined users prop
-- Common React pitfalls
-- Suggested fixes and best practices
+The AI will provide:
+- Root cause analysis
+- Common pitfall identification
+- Solution suggestions
+- Prevention tips
 
 
-## 🤝 Contributing
+## Contributing 🤝
 
-Contributions are welcome! Feel free to:
-- Add new prompt templates
-- Improve existing templates
-- Share best practices
-- Report issues
+We welcome contributions! Here's how:
 
-To contribute:
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+3. Make your changes
+4. Commit (`git commit -m 'Add some AmazingFeature'`)
+5. Push (`git push origin feature/AmazingFeature`)
+6. Open a Pull Request
 
-Found a bug or have a suggestion? [Open an issue](https://github.com/legendyxu/AwesomeCursorPrompt/issues)!
+Found a bug or have a suggestion? [Open an issue](https://github.com/legendyxu/AwesomeCursorPrompt/issues)
 
-## 📝 License
+## License 📝
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ✨ Acknowledgments
+## Acknowledgments ✨
 
-- Created to improve AI-assisted development workflows
+- Created to enhance AI-assisted development
 - Inspired by real-world development challenges
-- Designed for both beginners and experienced developers 
+- Designed for developers of all experience levels
