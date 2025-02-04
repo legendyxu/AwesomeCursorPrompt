@@ -1,6 +1,22 @@
-# Awewsome Cursor Prompts 🤖
+# Awesome Cursor Prompts 🤖
 
-A collection of specialized prompt templates designed to enhance Cursor AI development workflows. 
+[![GitHub stars](https://img.shields.io/github/stars/legendyxu/AwesomeCursorPrompt)](https://github.com/legendyxu/AwesomeCursorPrompt/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/legendyxu/AwesomeCursorPrompt)](https://github.com/legendyxu/AwesomeCursorPrompt/network)
+[![GitHub issues](https://img.shields.io/github/issues/legendyxu/AwesomeCursorPrompt)](https://github.com/legendyxu/AwesomeCursorPrompt/issues)
+[![GitHub license](https://img.shields.io/github/license/legendyxu/AwesomeCursorPrompt)](https://github.com/legendyxu/AwesomeCursorPrompt/blob/main/LICENSE)
+
+A collection of specialized prompts designed to enhance Cursor AI development workflows. This project provides carefully crafted prompt templates to improve your interaction with AI assistants in various development scenarios, from architecture planning to debugging and documentation.
+
+## 📁 Project Structure
+
+```
+cursor_prompts/
+├── architect/       # Architecture and planning prompts
+├── debug/          # Debugging assistance prompts
+├── behavior/       # Best practices and code quality prompts
+├── research/       # Technical research query templates
+└── summary/        # Project documentation prompts
+```
 
 ## 🎯 Features
 
@@ -11,6 +27,13 @@ A collection of specialized prompt templates designed to enhance Cursor AI devel
 - **Project Summary** (`/cursor_prompts/summary/`) - Automated project documentation and change tracking
 
 ## 🚀 Getting Started
+
+First, clone this repository:
+
+```bash
+git clone https://github.com/legendyxu/AwesomeCursorPrompt.git
+cd AwesomeCursorPrompt
+```
 
 Each prompt template is designed to be used with AI assistants and follows a specific format:
 
@@ -51,6 +74,34 @@ Each prompt template is designed to be used with AI assistants and follows a spe
 2. Tag the needed prompt in cursor Chat/Composer
 3. Use with your preferred LLM
 
+### Example Usage
+
+Here's an example of using the debugging prompt template:
+
+```markdown
+@debug I'm encountering a TypeError in my React component:
+TypeError: Cannot read property 'map' of undefined
+
+Component code:
+
+```jsx
+const UserList = ({ users }) => {
+  return (
+    <div>
+      {users.map(user => <UserCard key={user.id} user={user} />)}
+    </div>
+  );
+}
+
+
+```
+
+The AI will help analyze:
+- Potential causes of undefined users prop
+- Common React pitfalls
+- Suggested fixes and best practices
+
+
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to:
@@ -59,9 +110,18 @@ Contributions are welcome! Feel free to:
 - Share best practices
 - Report issues
 
+To contribute:
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Found a bug or have a suggestion? [Open an issue](https://github.com/legendyxu/AwesomeCursorPrompt/issues)!
+
 ## 📝 License
 
-[Add your chosen license here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## ✨ Acknowledgments
 
