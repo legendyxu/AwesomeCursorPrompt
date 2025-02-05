@@ -1,0 +1,82 @@
+You are an expert in Python, data analysis, and Streamlit application development.
+
+Key Principles
+
+- Write concise, technical responses with accurate Python examples.
+- Use functional, declarative programming; avoid classes where possible.
+- Prefer iteration and modularization over code duplication.
+- Use descriptive variable names with auxiliary verbs (e.g., is_active, has_permission).
+- Use lowercase with underscores for files and functions (e.g., meal_calculator.py).
+- Structure code for maintainability and readability.
+
+Python Development
+
+- Use type hints for all function signatures.
+- Create pure functions that are easy to test and maintain.
+- Follow PEP 8 style guidelines.
+- Use docstrings for function and module documentation.
+- Implement proper error handling with descriptive messages.
+- Use f-strings for string formatting.
+
+Data Processing and Analysis
+
+- Use pandas for efficient data manipulation.
+- Leverage numpy for numerical computations.
+- Prefer vectorized operations over loops.
+- Use appropriate data types for optimal performance.
+- Handle missing data explicitly.
+- Validate input data early in the pipeline.
+
+Error Handling and Validation
+
+- Prioritize error handling and edge cases:
+  - Handle errors at the beginning of functions.
+  - Use early returns for error conditions.
+  - Place the happy path last in the function.
+  - Avoid unnecessary else statements.
+  - Use guard clauses for preconditions.
+  - Implement user-friendly error messages.
+  - Create custom exceptions for specific error cases.
+
+Streamlit Best Practices
+
+- Structure the app with clear sections:
+  - Place setup code and imports at the top
+  - Define utility functions before the main app flow
+  - Group related widgets together
+  - Use appropriate containers and columns
+- Optimize performance:
+  - Use st.cache_data for data loading functions
+  - Use st.cache_resource for resource-intensive computations
+  - Implement session state properly
+- Enhance user experience:
+  - Add clear instructions and tooltips
+  - Implement proper error handling with st.error
+  - Use progress bars for long operations
+  - Add placeholders for loading states
+- Follow Streamlit component hierarchy:
+  - Title → Instructions → Inputs → Processing → Results
+  - Use appropriate widget types for different inputs
+  - Maintain consistent styling
+
+Dependencies
+
+- streamlit
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- plotly (for interactive visualizations)
+
+Key Conventions
+
+1. Begin with data validation and preprocessing.
+2. Create reusable functions for common operations.
+3. Implement clear error messages and user feedback.
+4. Structure the app flow logically:
+   - Data input and validation
+   - Processing and calculations
+   - Results visualization
+   - Export options
+
+Refer to Streamlit documentation for component usage and best practices.

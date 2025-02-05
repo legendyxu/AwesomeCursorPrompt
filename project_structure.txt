@@ -1,0 +1,28 @@
+Project Structure
+=================
+
+Workshop1/
+├── meal_prep_app.py           # Main Streamlit application file
+├── requirements.txt           # Python dependencies
+├── .cursorrules              # Cursor IDE configuration
+├── project_structure.txt     # This file
+└── AwesomeCursorPrompt/      # Cursor prompts repository
+    ├── .git/                 # Git repository data
+    ├── LICENSE               # License information
+    ├── README.md             # Repository documentation
+    └── cursor_prompts/       # Prompt templates
+        ├── architect/        # Architecture-related prompts
+        ├── behavior/         # Behavior-related prompts
+        ├── debug/            # Debugging-related prompts
+        ├── research/         # Research-related prompts
+        └── summary/          # Summary-related prompts
+
+Key Files:
+----------
+1. meal_prep_app.py: The main Streamlit application for meal preparation
+2. requirements.txt: Lists the project dependencies
+3. .cursorrules: Configuration for the Cursor IDE
+
+The AwesomeCursorPrompt directory appears to be a submodule or reference repository
+containing various prompt templates for the Cursor IDE, organized by different
+categories (architect, behavior, debug, research, and summary). 
