@@ -1,22 +1,18 @@
 # Cursor Workshop 1: AI-Powered Development
 
-Welcome to the repository for Cursor Workshop 1, presented by Arnold Xu. This workshop explores AI-powered development using Cursor IDE and demonstrates best practices for Python, data analysis, and Streamlit application development.
+Welcome to the repository for Cursor Workshop 1, presented by Arnold Xu. This workshop explores AI-powered development using Cursor IDE and demonstrates best practices for setting up directory, prompting Cursor, and gives a live coding demo.
 
-[![Star this repo](https://img.shields.io/github/stars/legendyxu/AwesomeCursorPrompt?style=social)](https://github.com/legendyxu/AwesomeCursorPrompt/stargazers) 
-👆 One click to star and stay updated with future workshops!
+**⭐ Click the star button at the top right to save this workshop content!** 
 
 ## Usage Guidelines 💡
 
-This workshop content is freely available for learning and educational purposes! Feel free to:
-- ✨ Learn and practice with the code
-- 📚 Use it for educational purposes
-- 🔧 Modify it for your personal projects
-- 🤝 Share it with other learners
+This workshop content is freely available for learning and educational purposes!
 
-For professional or commercial use (paid workshops, training, or products), let's collaborate! 
-📧 Reach out at misterarnoldhsu@gmail.com - I'd love to discuss how we can work together.
+📧For professional or commercial use, 
+ reach out at misterarnoldhsu@gmail.com
 
 ## Workshop Resources
+
 
 ### Presentation Materials
 - [Workshop Slides](https://docs.google.com/presentation/d/1xILwL7rtTGqJGOfovep4XNDRC0AsN6Lo/edit?usp=sharing&ouid=113311537233107421982&rtpof=true&sd=true)
@@ -25,6 +21,7 @@ For professional or commercial use (paid workshops, training, or products), let'
 ### Cursor Resources
 - [Cursor Directory](https://cursor.directory/) - Collection of specialized prompts and templates
 - [Awesome Cursor Rules](https://github.com/PatrickJS/awesome-cursorrules) - Curated list of Cursor IDE best practices and configurations
+
 
 ## Repository Contents
 
@@ -71,5 +68,5 @@ This project is free for personal and educational use! For any commercial inquir
 
 Special thanks to:
 - Arnold Xu for presenting the workshop
-- The Cursor IDE team for providing the development tools
-- All workshop participants for their engagement and feedback 
+- Ti Guo and AI Scholar for organizing the workshop
+- All workshop participants for their engagement and feedback
