@@ -2,19 +2,19 @@
 
 Welcome to the repository for Cursor Workshop 1, presented by Arnold Xu. This workshop explores AI-powered development using Cursor IDE and demonstrates best practices for Python, data analysis, and Streamlit application development.
 
-⭐ **Please star this repository to show your support and keep track of it for future reference!** ⭐
+[![Star this repo](https://img.shields.io/github/stars/legendyxu/AwesomeCursorPrompt?style=social)](https://github.com/legendyxu/AwesomeCursorPrompt/stargazers) 
+👆 One click to star and stay updated with future workshops!
 
-## Important License Notice
+## Usage Guidelines 💡
 
-**RESTRICTED USAGE**: This workshop content is protected under a custom license. While you are free to use it for personal and educational purposes:
-- ⚠️ **Any commercial use, including but not limited to:**
-  - Paid workshops or training
-  - Commercial products or services
-  - Monetized content creation
-  
-  **REQUIRES explicit written permission from Arnold Xu.**
-- To request commercial usage permission, please contact Arnold Xu directly.
-- Failure to comply may result in legal action.
+This workshop content is freely available for learning and educational purposes! Feel free to:
+- ✨ Learn and practice with the code
+- 📚 Use it for educational purposes
+- 🔧 Modify it for your personal projects
+- 🤝 Share it with other learners
+
+For professional or commercial use (paid workshops, training, or products), let's collaborate! 
+📧 Reach out at misterarnoldhsu@gmail.com - I'd love to discuss how we can work together.
 
 ## Workshop Resources
 
@@ -41,25 +41,31 @@ This repository contains:
 pip install -r requirements.txt
 ```
 
-2. Review the workshop materials in the following order:
+2. Run the Meal Prep Application:
+```bash
+streamlit run meal_prep_app.py
+```
+This will launch our workshop project - an interactive meal prep planning application in your default browser! 🚀
+
+3. Review the workshop materials in the following order:
    - Watch the workshop recording
    - Go through the slides
    - Explore the code examples
    - Practice with the exercises
+   - Try modifying the meal prep app to add your own features!
 
 ## Contributing
 
 If you find any issues or have suggestions for improvements, please feel free to create an issue or submit a pull request.
 
-## License
+## License and Usage
 
-This project is provided under a custom restricted license:
-- ✅ Free for personal use and learning
-- ✅ Free for non-commercial educational purposes
-- ❌ Commercial use requires explicit permission
-- ❌ Redistribution or modification for commercial purposes is prohibited
+This project is free for personal and educational use! For any commercial inquiries or professional collaboration:
 
-For commercial licensing inquiries, please contact Arnold Xu.
+- ✅ Personal learning and practice
+- ✅ Educational purposes (schools, bootcamps, etc.)
+- 👔 Commercial use (workshops, training, products) - please reach out first
+- 📧 Contact: misterarnoldhsu@gmail.com
 
 ## Acknowledgments
 

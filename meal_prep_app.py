@@ -392,5 +392,3 @@ else:
         file_name="recipe_template.csv",
         mime="text/csv"
     ) 
-
-print("hellp world")
